@@ -1,7 +1,7 @@
 import { type ReactNode } from "react";
-import { CourseGoal as CGoal } from "../App";
-import CourseGoal from "./CourseGoal";
-import InfoBox from "./Info";
+import { CourseGoal as CGoal } from "../../App";
+import CourseGoal from "./course-goal";
+import InfoBox from "../Info";
 
 interface CourseGoalProps {
   goals: CGoal[];
