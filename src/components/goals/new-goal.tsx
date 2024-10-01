@@ -1,5 +1,5 @@
 import { useRef, useState, type FormEvent, ReactNode } from "react";
-import InfoBox from "./Info";
+import InfoBox from "../Info";
 
 interface NewGoalProps {
   onAddGoal: (goal: string, summary: string) => void;
